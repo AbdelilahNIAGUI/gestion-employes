@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.gestionemployes.dao.IEmployeDao;
 import com.gestionemployes.entities.Employe;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/gestion-employes")
 public class GestionEmploye {
